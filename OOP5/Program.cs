@@ -30,6 +30,12 @@
             //c)An extension method must be declared inside a non-nested, non-generic static class.
             //d)No, an extension method cannot access private or protected members of the class it extends. It can only access public members.
             #endregion
+            #region Q5  Partial Classes and Partial Methods
+            //a)A Partial Class allows the definition of a single class to be split across multiple physical files. When compiled, all parts are combined into one class.
+            //b)Developers split a class to make large codebases easier to manage, to allow multiple developers to work on different parts of the class at the same time, or to separate auto-generated code from custom code.
+            //c) A Partial Method is a method declared in one part of a partial class and optionally implemented in another part of the same class.
+            //d) If a partial method has no implementation, the compiler completely removes its declaration and all calls to it at compile-time, so there is no performance overhead.
+            #endregion
             #endregion
         }
     }
