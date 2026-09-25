@@ -18,6 +18,12 @@
             //d) Reference - type members are completely duplicated as new objects.Changing them in the copied object will NOT affect the original.
             //e) When an object contains mutable reference-type fields(like a list or another object) that will be modified later, and you want to ensure the original data remains unchanged.
             #endregion
+            #region Q3  Static Members
+            //a)A static field belongs to the class itself and is shared by all instances, while an instance field belongs to a specific object and has a separate copy for each object.
+            //b)A static method belongs to the class and can be called without creating an object. It CANNOT directly access instance members because it does not operate on a specific object instance.
+            //c)A static constructor is used to initialize static data or perform actions that need to be done once. It is executed automatically before the first instance is created or any static member is referenced.
+            //d)A static class is a class that contains only static members and cannot be instantiated or inherited. No, you CANNOT create an object from a static class.
+            #endregion
             #endregion
         }
     }
