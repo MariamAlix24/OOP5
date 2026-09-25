@@ -24,6 +24,12 @@
             //c)A static constructor is used to initialize static data or perform actions that need to be done once. It is executed automatically before the first instance is created or any static member is referenced.
             //d)A static class is a class that contains only static members and cannot be instantiated or inherited. No, you CANNOT create an object from a static class.
             #endregion
+            #region Q4  Extension Methods
+            //a)An extension method allows you to add new methods to an existing type without modifying its original source code, inheriting from it, or recompiling it.
+            //b)The this keyword must be used before the type in the first parameter.
+            //c)An extension method must be declared inside a non-nested, non-generic static class.
+            //d)No, an extension method cannot access private or protected members of the class it extends. It can only access public members.
+            #endregion
             #endregion
         }
     }
